@@ -15,9 +15,4 @@
 
 .bg-gradent{
   background: var(--Linear, linear-gradient(125deg, #632EE3 5.68%, #9F62F2 88.38%));
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-family: Inter;
-
 }

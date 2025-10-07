@@ -2,7 +2,7 @@ import React from "react";
 import { Link, NavLink } from "react-router";
 import logo from "../assets/logo.png";
 import { RiHome4Line } from "react-icons/ri";
-import { FaAppStore } from "react-icons/fa";
+import { FaAppStore, FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -31,23 +31,9 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
+              <Link to='/'><li>Home</li></Link>
+              <Link to='/apps'><li> Apps</li></Link>
+              <Link to='/installation'><li>Installation</li></Link>
             </ul>
           </div>
           <Link
@@ -97,7 +83,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <NavLink to={'https://github.com/Najmulkhan1'}> <button className='animate-pulse flex items-center gap-2 bg-gradent text-white px-3 py-2 rounded-sm shadow-2xl font-semibold' > <FaGithub/>  Contribute</button> </NavLink>
         </div>
       </div>
     </div>
