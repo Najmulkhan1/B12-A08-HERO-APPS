@@ -5,16 +5,32 @@
     "companyName": "Spotify AB",
     "id": 1,
     "description": "Stream millions of songs and podcasts from around the world. Listen to the latest music and podcasts, discover albums, playlists, and original podcasts for free on mobile and tablet. Download music and podcasts to listen offline, and enjoy personalized music and ad-free listening with Spotify Premium.",
+    "long_description": "Dive into the **world's largest audio streaming library** with Spotify. Discover millions of songs, thousands of curated podcasts, and exclusive content you won't find anywhere else. Our smart algorithms instantly create personalized playlists like **Daily Mixes** and **Discover Weekly**, tailored precisely to your unique taste in music.\n\nEnjoy music for every mood and moment—from high-energy workout playlists to relaxing ambient tracks. You can easily create and share your own playlists, follow your favorite artists, and stay updated with new releases.\n\nUpgrade to **Spotify Premium** for the ultimate, uninterrupted experience. Listen to all your audio completely **ad-free**, download tracks to enjoy **offline**, and enjoy unlimited skips in high-quality sound. It's more than just an app—it's your entire audio universe, accessible anytime, anywhere. **Start your free trial today!**",
     "size": 234.6,
     "reviews": "71.5M",
     "ratingAvg": 4.55,
-    "downloads": "1B+",
+    "downloads": "1.0B",
     "ratings": [
-      { "name": "1 star", "count": 100000 },
-      { "name": "2 star", "count": 50000 },
-      { "name": "3 star", "count": 100000 },
-      { "name": "4 star", "count": 650000 },
-      { "name": "5 star", "count": 2600000 }
+      {
+        "name": "1 star",
+        "count": 100000
+      },
+      {
+        "name": "2 star",
+        "count": 50000
+      },
+      {
+        "name": "3 star",
+        "count": 100000
+      },
+      {
+        "name": "4 star",
+        "count": 650000
+      },
+      {
+        "name": "5 star",
+        "count": 2600000
+      }
     ]
   },
   {
@@ -23,16 +39,32 @@
     "companyName": "WhatsApp LLC",
     "id": 2,
     "description": "Cross-platform encrypted messaging service for text, voice, and video calls.",
-    "size": 60,
-    "reviews": "180M",
+    "long_description": "WhatsApp Messenger is a **FREE messaging app** that allows you to connect with friends and family across 180+ countries simply and reliably. Communicate with private, **end-to-end encrypted** messaging and calling, ensuring that only you and the person you're communicating with can read or listen to your messages and calls.\n\nEnjoy crystal-clear **voice and video calls** with up to 32 people, perfect for connecting with loved ones or coordinating with colleagues. Send instant text messages, photos, videos, documents, and voice notes without any SMS fees.\n\nUse **Status** to share disappearing updates of text, photos, video, and GIF. Set up group chats to stay in touch with your social circles and use WhatsApp Web for desktop communication. It’s the world's most trusted messaging app, designed for your complete privacy and connection.",
+    "size": 60.0,
+    "reviews": "180.0M",
     "ratingAvg": 4.4,
-    "downloads": "5B+",
+    "downloads": "5.0B",
     "ratings": [
-      { "name": "1 star", "count": 10000000 },
-      { "name": "2 star", "count": 8000000 },
-      { "name": "3 star", "count": 12000000 },
-      { "name": "4 star", "count": 25000000 },
-      { "name": "5 star", "count": 125000000 }
+      {
+        "name": "1 star",
+        "count": 10000000
+      },
+      {
+        "name": "2 star",
+        "count": 8000000
+      },
+      {
+        "name": "3 star",
+        "count": 12000000
+      },
+      {
+        "name": "4 star",
+        "count": 25000000
+      },
+      {
+        "name": "5 star",
+        "count": 125000000
+      }
     ]
   },
   {
@@ -41,16 +73,32 @@
     "companyName": "Bangladesh Post Office",
     "id": 3,
     "description": "Digital financial service (DFS) for fast, secure, and affordable money transactions.",
-    "size": 45,
-    "reviews": "1M",
+    "long_description": "Nagad is the leading Digital Financial Service (DFS) of the Bangladesh Post Office, designed to make your financial transactions **fast, secure, and affordable**. With Nagad, managing your money is as simple as a few taps on your mobile phone.\n\nInstantly **Send Money (P2P)** to friends and family with the lowest possible charge. **Cash Out** from thousands of agents or Post Office branches across the country. Effortlessly **Pay Bills** for electricity, gas, water, and other utilities from the comfort of your home.\n\nEnjoy hassle-free **Mobile Recharge** for all operators. Securely **Pay Merchants** at your favorite stores and online shops. Nagad prioritizes your security with advanced encryption and a simple, **PIN-protected** interface. Join millions of users who are experiencing the freedom of digital banking with the trust of the Bangladesh Post Office.",
+    "size": 45.0,
+    "reviews": "1.0M",
     "ratingAvg": 4.3,
-    "downloads": "10M+",
+    "downloads": "10.0M",
     "ratings": [
-      { "name": "1 star", "count": 50000 },
-      { "name": "2 star", "count": 30000 },
-      { "name": "3 star", "count": 70000 },
-      { "name": "4 star", "count": 250000 },
-      { "name": "5 star", "count": 600000 }
+      {
+        "name": "1 star",
+        "count": 50000
+      },
+      {
+        "name": "2 star",
+        "count": 30000
+      },
+      {
+        "name": "3 star",
+        "count": 70000
+      },
+      {
+        "name": "4 star",
+        "count": 250000
+      },
+      {
+        "name": "5 star",
+        "count": 600000
+      }
     ]
   },
   {
@@ -59,16 +107,32 @@
     "companyName": "Daraz Group",
     "id": 4,
     "description": "Leading e-commerce and online shopping marketplace in Bangladesh.",
-    "size": 80,
+    "long_description": "Daraz is the **No. 1 online shopping destination** in Bangladesh, bringing millions of products right to your fingertips. Browse the largest selection of categories including electronics, fashion, home and living, sports, and much more, all from trusted sellers.\n\nEnjoy **Daily Flash Sales**, exclusive discounts, and incredible vouchers. Shop with confidence using our secure payment methods, including Cash on Delivery (COD), mobile banking, and card payments. Our dedicated **Daraz Mall** offers 100% authentic products directly from verified local and international brands.\n\nTrack your orders in real-time and benefit from our robust Buyer Protection policy. Whether you are looking for the latest smartphone or a new saree, Daraz provides a **seamless and reliable e-commerce experience**. Download the app today for the best deals and a world of shopping!",
+    "size": 80.0,
     "reviews": "2.5M",
     "ratingAvg": 4.2,
-    "downloads": "50M+",
+    "downloads": "50.0M",
     "ratings": [
-      { "name": "1 star", "count": 150000 },
-      { "name": "2 star", "count": 100000 },
-      { "name": "3 star", "count": 250000 },
-      { "name": "4 star", "count": 600000 },
-      { "name": "5 star", "count": 1400000 }
+      {
+        "name": "1 star",
+        "count": 150000
+      },
+      {
+        "name": "2 star",
+        "count": 100000
+      },
+      {
+        "name": "3 star",
+        "count": 250000
+      },
+      {
+        "name": "4 star",
+        "count": 600000
+      },
+      {
+        "name": "5 star",
+        "count": 1400000
+      }
     ]
   },
   {
@@ -77,16 +141,32 @@
     "companyName": "Brave Software, Inc.",
     "id": 5,
     "description": "Fast, private browser with built-in ad blocking, tracker protection and an optional VPN for secure browsing.",
-    "size": 95,
+    "long_description": "Experience the internet like never before with the **Brave Private Web Browser**. Brave is a revolutionary, lightning-fast browser built on the principles of **privacy and speed**. It loads pages up to 3x faster than traditional browsers by automatically blocking unwanted ads and third-party trackers.\n\nYour privacy is non-negotiable. Brave includes powerful **built-in shields** to protect you from fingerprinting and malicious scripts. You can browse completely anonymously without compromising speed. The browser also features an integrated **Private Tab with Tor** for an extra layer of anonymity.\n\nOptionally subscribe to **Brave VPN** for encrypted, system-wide protection that works inside and outside the browser. Browse securely, save battery life, and reduce data usage. Take back control of your browsing experience—**download Brave today** and see how fast a truly private browser can be.",
+    "size": 95.0,
     "reviews": "420K",
     "ratingAvg": 4.5,
-    "downloads": "50M+",
+    "downloads": "50.0M",
     "ratings": [
-      { "name": "1 star", "count": 700000 },
-      { "name": "2 star", "count": 400000 },
-      { "name": "3 star", "count": 900000 },
-      { "name": "4 star", "count": 2500000 },
-      { "name": "5 star", "count": 7500000 }
+      {
+        "name": "1 star",
+        "count": 700000
+      },
+      {
+        "name": "2 star",
+        "count": 400000
+      },
+      {
+        "name": "3 star",
+        "count": 900000
+      },
+      {
+        "name": "4 star",
+        "count": 2500000
+      },
+      {
+        "name": "5 star",
+        "count": 7500000
+      }
     ]
   },
   {
@@ -95,16 +175,32 @@
     "companyName": "imo.im",
     "id": 6,
     "description": "Global video and chat application popular for international calls.",
-    "size": 40,
-    "reviews": "9M",
+    "long_description": "imo is your essential app for **free, high-quality international video and voice calls**. Connect with friends and family across the globe, no matter their location, over 2G, 3G, 4G, or Wi-Fi networks. imo specializes in providing **stable and crystal-clear video calls** even in environments with low or unstable network speeds.\n\nSend unlimited text messages, photos, videos, and large files without compromise. Create group chats for family reunions or professional collaborations. Express yourself with thousands of free stickers and use **imo Big Group** to create communities of up to 100,000 members.\n\nWith imo, your chats are secured with advanced encryption protocols. It’s the perfect all-in-one communication tool that supports various local languages. Stay connected with the world—**download imo** and start calling internationally today!",
+    "size": 40.0,
+    "reviews": "9.0M",
     "ratingAvg": 4.3,
-    "downloads": "500M+",
+    "downloads": "500.0M",
     "ratings": [
-      { "name": "1 star", "count": 500000 },
-      { "name": "2 star", "count": 300000 },
-      { "name": "3 star", "count": 600000 },
-      { "name": "4 star", "count": 2100000 },
-      { "name": "5 star", "count": 5500000 }
+      {
+        "name": "1 star",
+        "count": 500000
+      },
+      {
+        "name": "2 star",
+        "count": 300000
+      },
+      {
+        "name": "3 star",
+        "count": 600000
+      },
+      {
+        "name": "4 star",
+        "count": 2100000
+      },
+      {
+        "name": "5 star",
+        "count": 5500000
+      }
     ]
   },
   {
@@ -113,16 +209,32 @@
     "companyName": "Telegram FZ-LLC",
     "id": 7,
     "description": "Cloud-based instant messaging service focused on speed and security.",
-    "size": 55,
-    "reviews": "8M",
+    "long_description": "Telegram is a powerful, **cloud-based messaging app** focused on **speed and security**. It's super-fast, simple, and free. You can use Telegram on all your devices at once, as your messages sync seamlessly across any number of phones, tablets, or computers. \n\nSend unlimited messages, photos, videos, and files of any type (doc, zip, mp3, etc.) up to 2 GB each. Create massive **Group Chats** for up to 200,000 members or set up **Channels** to broadcast to unlimited audiences. \n\nTelegram offers optional **Secret Chats** with end-to-end encryption and self-destructing messages for maximum privacy. Our robust security protocols ensure your data is safe from hackers. Enjoy powerful editing tools for media, animated stickers, and a rich ecosystem of bots. Telegram is the future of mobile messaging—**fast, private, and powerful.**",
+    "size": 55.0,
+    "reviews": "8.0M",
     "ratingAvg": 4.5,
-    "downloads": "1B+",
+    "downloads": "1.0B",
     "ratings": [
-      { "name": "1 star", "count": 200000 },
-      { "name": "2 star", "count": 150000 },
-      { "name": "3 star", "count": 350000 },
-      { "name": "4 star", "count": 1800000 },
-      { "name": "5 star", "count": 5500000 }
+      {
+        "name": "1 star",
+        "count": 200000
+      },
+      {
+        "name": "2 star",
+        "count": 150000
+      },
+      {
+        "name": "3 star",
+        "count": 350000
+      },
+      {
+        "name": "4 star",
+        "count": 1800000
+      },
+      {
+        "name": "5 star",
+        "count": 5500000
+      }
     ]
   },
   {
@@ -131,16 +243,32 @@
     "companyName": "Bytedance Pte. Ltd.",
     "id": 8,
     "description": "All-in-one free video editing application.",
-    "size": 100,
-    "reviews": "5M",
+    "long_description": "Unleash your creativity with **CutCut - the ultimate all-in-one free video editor** for mobile. Whether you’re a beginner or a pro, CutCut provides all the tools you need to produce stunning, high-quality videos for social media (TikTok, YouTube, Instagram Reels).\n\nEasily **trim, cut, merge, and split** your video clips with frame-by-frame precision. Access a vast library of **trending filters, effects, and stickers** to make your videos pop. Add custom music, sound effects, or voiceovers to create the perfect soundscape.\n\nUtilize advanced features like **Chroma Key** for green screen effects, speed control (slow motion and fast motion), and customizable text/titles. Export your final masterpiece in **HD resolution** without any watermarks or hidden costs. Stop simply recording, start creating—**download CutCut** and edit like a professional today!",
+    "size": 100.0,
+    "reviews": "5.0M",
     "ratingAvg": 4.4,
-    "downloads": "500M+",
+    "downloads": "500.0M",
     "ratings": [
-      { "name": "1 star", "count": 200000 },
-      { "name": "2 star", "count": 150000 },
-      { "name": "3 star", "count": 300000 },
-      { "name": "4 star", "count": 1050000 },
-      { "name": "5 star", "count": 3300000 }
+      {
+        "name": "1 star",
+        "count": 200000
+      },
+      {
+        "name": "2 star",
+        "count": 150000
+      },
+      {
+        "name": "3 star",
+        "count": 300000
+      },
+      {
+        "name": "4 star",
+        "count": 1050000
+      },
+      {
+        "name": "5 star",
+        "count": 3300000
+      }
     ]
   },
   {
@@ -149,16 +277,32 @@
     "companyName": "Garena International I",
     "id": 9,
     "description": "Popular survival shooter game played in Bangladesh.",
-    "size": 750,
-    "reviews": "150M",
+    "long_description": "Free Fire is the original **ultimate survival shooter game** available on mobile. Experience fast-paced, 10-minute battle royale matches where you are pitted against 49 other players, all seeking survival. Land with a parachute, secure weapons, and stay in the safe zone to outlive your rivals.\n\nPlay with friends in **4-person squad mode** with in-game voice chat to strategize for victory. Choose from a massive roster of unique characters, each with special abilities that can turn the tide of battle. The constant map updates, new events, and limited-time bundles ensure endless fresh content.\n\nFree Fire offers realistic and immersive graphics on mobile, with smooth controls optimized for any device. Dominate the battlefield, showcase your skills, and prove you are the last one standing. **Join the global phenomenon**—download Free Fire and ignite the Light Fest!",
+    "size": 750.0,
+    "reviews": "150.0M",
     "ratingAvg": 4.1,
-    "downloads": "1B+",
+    "downloads": "1.0B",
     "ratings": [
-      { "name": "1 star", "count": 10000000 },
-      { "name": "2 star", "count": 7000000 },
-      { "name": "3 star", "count": 12000000 },
-      { "name": "4 star", "count": 35000000 },
-      { "name": "5 star", "count": 86000000 }
+      {
+        "name": "1 star",
+        "count": 10000000
+      },
+      {
+        "name": "2 star",
+        "count": 7000000
+      },
+      {
+        "name": "3 star",
+        "count": 12000000
+      },
+      {
+        "name": "4 star",
+        "count": 35000000
+      },
+      {
+        "name": "5 star",
+        "count": 86000000
+      }
     ]
   },
   {
@@ -167,197 +311,372 @@
     "companyName": "Pathao",
     "id": 10,
     "description": "Ride-sharing, food delivery, and e-commerce logistics platform.",
-    "size": 65,
+    "long_description": "Pathao is the **leading digital platform** in Bangladesh, combining ride-sharing, food delivery, and e-commerce logistics into one seamless, user-friendly app. Solve all your daily needs with a single tap.\n\nBook a **motorcycle or car ride** in minutes with Pathao Rides for a fast, affordable, and safe journey across the city. Use **Pathao Food** to browse thousands of local restaurants and get your favorite meals delivered hot and fresh right to your doorstep, with real-time tracking.\n\nPathao also offers reliable **parcel and courier services**, making it easy to send packages to your customers or loved ones. The app is designed for maximum convenience, featuring multiple payment options, GPS tracking, and dedicated customer support. Simplify your life and experience the power of the urban platform—**download Pathao today!**",
+    "size": 65.0,
     "reviews": "300K",
     "ratingAvg": 4.0,
-    "downloads": "10M+",
+    "downloads": "10.0M",
     "ratings": [
-      { "name": "1 star", "count": 20000 },
-      { "name": "2 star", "count": 15000 },
-      { "name": "3 star", "count": 40000 },
-      { "name": "4 star", "count": 85000 },
-      { "name": "5 star", "count": 140000 }
+      {
+        "name": "1 star",
+        "count": 20000
+      },
+      {
+        "name": "2 star",
+        "count": 15000
+      },
+      {
+        "name": "3 star",
+        "count": 40000
+      },
+      {
+        "name": "4 star",
+        "count": 85000
+      },
+      {
+        "name": "5 star",
+        "count": 140000
+      }
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/P7Bo0klUw2aF4D1hnMgc99M4XhS6hS8xOgrPaX-vbG2W3ulLLWbXZquN4GppWgkPYXc=s256-rw",
-    "title": "YouTube",
-    "companyName": "Google LLC",
+    "image": "https://play-lh.googleusercontent.com/e5GPTe3zNL4KKPvywZhXFeiDUaowHmlLLCoYjkbw0QGu5LUT39QrL65n2X74IBbCeUEn=s256-rw",
+    "title": "foodpanda",
+    "companyName": "Delivery Hero SE",
     "id": 11,
-    "description": "Official app for streaming videos, music, and shorts from creators around the world.",
-    "size": 150,
-    "reviews": "150M",
-    "ratingAvg": 4.3,
-    "downloads": "10B+",
-    "ratings": [
-      { "name": "1 star", "count": 12000000 },
-      { "name": "2 star", "count": 7000000 },
-      { "name": "3 star", "count": 15000000 },
-      { "name": "4 star", "count": 50000000 },
-      { "name": "5 star", "count": 70000000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/DNChx4hwSXo8oDBVCz7uTuh5JrK4_g3f-M5guyk_cO0nv-wo1XXsMIdYzAXk8adkXw=s256-rw",
-    "title": "Facebook",
-    "companyName": "Meta Platforms, Inc.",
-    "id": 12,
-    "description": "Connect with friends, share updates, photos, and videos in the world’s largest social network.",
-    "size": 210,
-    "reviews": "140M",
+    "description": "Food and grocery delivery platform in Bangladesh.",
+    "long_description": "foodpanda is your ultimate solution for **fast, reliable food and grocery delivery** in Bangladesh. Craving local delicacies, international cuisine, or just a late-night snack? We connect you with thousands of restaurants and stores right in your city.\n\nBrowse menus, read reviews, and place your order in seconds. Track your delivery in **real-time**, right from the restaurant's kitchen to your front door. Our dedicated delivery riders ensure your food arrives hot, fresh, and on time. Pay easily with multiple options, including cash on delivery and online payments.\n\nBeyond food, use **pandamart** for quick **grocery, pharmacy, and essentials delivery** in minutes. Enjoy exclusive deals, vouchers, and discounts only available on the foodpanda app. It’s the easiest way to get everything you need, delivered right to you. **Download now** and satisfy your cravings instantly!",
+    "size": 90.0,
+    "reviews": "500K",
     "ratingAvg": 4.1,
-    "downloads": "5B+",
+    "downloads": "10.0M",
     "ratings": [
-      { "name": "1 star", "count": 15000000 },
-      { "name": "2 star", "count": 8000000 },
-      { "name": "3 star", "count": 18000000 },
-      { "name": "4 star", "count": 45000000 },
-      { "name": "5 star", "count": 54000000 }
+      {
+        "name": "1 star",
+        "count": 35000
+      },
+      {
+        "name": "2 star",
+        "count": 25000
+      },
+      {
+        "name": "3 star",
+        "count": 50000
+      },
+      {
+        "name": "4 star",
+        "count": 140000
+      },
+      {
+        "name": "5 star",
+        "count": 250000
+      }
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/YOJ9iXfByD-A2mI3RQo_ItZ1FjBDmWIR1T21-KrGsmgPp8SduD8f2TxF_BvndzEkpQ=s256-rw",
-    "title": "Instagram",
-    "companyName": "Meta Platforms, Inc.",
+    "image": "https://play-lh.googleusercontent.com/poGqp5ZwUKlOqS3ylgi8XxWxVwcRtBhZ8LImpwcqFce-yAZ8GueuYDW6AYCIUQXzkA=s256-rw",
+    "title": "Ridmik Keyboard",
+    "companyName": "Ridmik Labs",
+    "id": 12,
+    "description": "Popular Bangla and English multilingual keyboard for typing.",
+    "long_description": "Ridmik Keyboard is the **most popular and highly-rated Bangla and English keyboard** on Android. It offers an incredibly fast, smart, and intuitive typing experience for millions of users. It supports multiple input methods for Bangla, including **Phonetic (Avro style)**, **National (Jatiyo)**, and **Probhat** layouts, ensuring everyone can type in their preferred style.\n\nSeamlessly switch between **Bangla and English** with a single swipe. The powerful dictionary and predictive text technology make typing faster and more accurate. Personalize your keyboard with dozens of beautiful themes and customizable key layouts.\n\nRidmik is designed to be lightweight, fast, and free of unnecessary bloat. It respects your privacy and does not collect personal data. Whether you are texting, emailing, or social networking, Ridmik is the **essential tool for multilingual typing**. Download now and elevate your mobile communication!",
+    "size": 25.0,
+    "reviews": "400K",
+    "ratingAvg": 4.7,
+    "downloads": "10.0M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 10000
+      },
+      {
+        "name": "2 star",
+        "count": 5000
+      },
+      {
+        "name": "3 star",
+        "count": 15000
+      },
+      {
+        "name": "4 star",
+        "count": 60000
+      },
+      {
+        "name": "5 star",
+        "count": 310000
+      }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/8dKenJeYnw-c49E6JZoilnHCXQ_tUWoHrAYMV35rVd6oX2Eko7O_YSESqTPFpB_8n8U=w240-h480-rw",
+    "title": "MyGP - Offer, Recharge, Sports",
+    "companyName": "Grameenphone Limited",
     "id": 13,
-    "description": "Photo and video sharing social network that connects people globally.",
-    "size": 160,
-    "reviews": "150M",
-    "ratingAvg": 4.5,
-    "downloads": "5B+",
-    "ratings": [
-      { "name": "1 star", "count": 12000000 },
-      { "name": "2 star", "count": 7000000 },
-      { "name": "3 star", "count": 15000000 },
-      { "name": "4 star", "count": 42000000 },
-      { "name": "5 star", "count": 74000000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/jNyl7UpQO1TuRkzFKU16ZbzN2qMSiAiQfHhvCJ_BhZ0dGKnI1nwlR5LRK4_CEHVtZg=s256-rw",
-    "title": "TikTok",
-    "companyName": "TikTok Pte. Ltd.",
-    "id": 14,
-    "description": "Short-form video creation and sharing platform loved by creators worldwide.",
-    "size": 130,
-    "reviews": "140M",
-    "ratingAvg": 4.4,
-    "downloads": "1B+",
-    "ratings": [
-      { "name": "1 star", "count": 10000000 },
-      { "name": "2 star", "count": 5000000 },
-      { "name": "3 star", "count": 13000000 },
-      { "name": "4 star", "count": 38000000 },
-      { "name": "5 star", "count": 74000000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/fF0eD9zNKN8fSx4G-Yg7bqHH3Q7R2mE4fQvV5eWQtGJv9vC_FO7mPbaKe0PzWqltBw=s256-rw",
-    "title": "Snapchat",
-    "companyName": "Snap Inc.",
-    "id": 15,
-    "description": "Instant photo and video messaging app with disappearing messages and filters.",
-    "size": 90,
-    "reviews": "40M",
-    "ratingAvg": 4.2,
-    "downloads": "1B+",
-    "ratings": [
-      { "name": "1 star", "count": 4000000 },
-      { "name": "2 star", "count": 2500000 },
-      { "name": "3 star", "count": 6000000 },
-      { "name": "4 star", "count": 12000000 },
-      { "name": "5 star", "count": 15000000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/pfUyb9gcJKObTvvP3gl03dKLDI2kH1Km0Pw1dufCk_6DpToH7WZTYbM8HiOZ4YWReQ=s256-rw",
-    "title": "LinkedIn",
-    "companyName": "LinkedIn Corporation",
-    "id": 16,
-    "description": "Professional networking platform to connect, share insights, and find opportunities.",
-    "size": 110,
-    "reviews": "15M",
-    "ratingAvg": 4.4,
-    "downloads": "1B+",
-    "ratings": [
-      { "name": "1 star", "count": 1000000 },
-      { "name": "2 star", "count": 600000 },
-      { "name": "3 star", "count": 1200000 },
-      { "name": "4 star", "count": 4500000 },
-      { "name": "5 star", "count": 7800000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/N6_3IYv2E3ZrC4tyxO4nOeIuGrzQe13dUOLBvh5Er7rRUY3XTu4Wj0ld-c6Hb3dDscI=s256-rw",
-    "title": "Messenger",
-    "companyName": "Meta Platforms, Inc.",
-    "id": 17,
-    "description": "Instant messaging app with voice, video calls, and stories from Facebook.",
-    "size": 120,
-    "reviews": "80M",
+    "description": "Account management app for Grameenphone (GP) subscribers.",
+    "long_description": "MyGP is the **official self-service app** for all Grameenphone (GP) subscribers, putting complete control of your account right into your hands. Instantly check your remaining **Internet, Talk Time, and SMS balance**. Monitor your usage in real-time and manage all your GP services from one place.\n\nEnjoy **exclusive offers and Internet/Bundle Packs** that are only available on MyGP. Recharge your mobile balance instantly with secure online payments. Manage multiple GP numbers easily without logging out.\n\nMyGP is more than just an account manager; it’s a lifestyle app. Stay updated with **latest news, sports scores, and entertainment content**. Troubleshoot common issues and access dedicated customer service support directly through the app. Download MyGP today to experience the ultimate convenience and transparency of managing your Grameenphone connection.",
+    "size": 40.0,
+    "reviews": "700K",
     "ratingAvg": 4.3,
-    "downloads": "5B+",
+    "downloads": "10.0M",
     "ratings": [
-      { "name": "1 star", "count": 7000000 },
-      { "name": "2 star", "count": 4000000 },
-      { "name": "3 star", "count": 9000000 },
-      { "name": "4 star", "count": 24000000 },
-      { "name": "5 star", "count": 36000000 }
+      {
+        "name": "1 star",
+        "count": 30000
+      },
+      {
+        "name": "2 star",
+        "count": 20000
+      },
+      {
+        "name": "3 star",
+        "count": 50000
+      },
+      {
+        "name": "4 star",
+        "count": 180000
+      },
+      {
+        "name": "5 star",
+        "count": 420000
+      }
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/8U8dHs3ngT7LbtEB9YzUAWD2VEZyQ7WwaI6dNbpOv5I6Jiv2Sl3XqaiQ_mBRrUEcQ=s256-rw",
-    "title": "Twitter (X)",
-    "companyName": "X Corp.",
-    "id": 18,
-    "description": "Microblogging platform for real-time updates, trends, and global discussions.",
-    "size": 95,
-    "reviews": "50M",
-    "ratingAvg": 4.2,
-    "downloads": "1B+",
+    "image": "https://play-lh.googleusercontent.com/VaKjVtEoXm0ErtmaHwH5Ni-EpaBoJcTmoY_Bs5JeIOVOQx8z_jBWMaxB6QdYPxX-OA7l=s256-rw",
+    "title": "SHAREit: Transfer, Share Files",
+    "companyName": "Smart Media4U Technology Pte.Ltd.",
+    "id": 14,
+    "description": "P2P file transfer and sharing application.",
+    "long_description": "SHAREit is the **#1 cross-platform transfer tool** for all your sharing needs. With speeds up to 200 times faster than Bluetooth, SHAREit allows you to quickly send and receive files of any size and format—photos, videos, music, apps, and more—without any internet connection or mobile data usage.\n\nIt works seamlessly across all platforms, including Android, iOS, and PC. Simply select your files and instantly connect to a nearby device to begin the lightning-fast transfer process. It's the most efficient way to **migrate data to a new phone**.\n\nBeyond file transfer, SHAREit features a powerful integrated media player to manage and enjoy your local content. It also includes a robust file manager for organizing your phone's storage. Join the millions of users worldwide who trust SHAREit for all their sharing needs. **Download now** for the fastest offline file sharing!",
+    "size": 40.0,
+    "reviews": "11.0M",
+    "ratingAvg": 4.0,
+    "downloads": "1.0B",
     "ratings": [
-      { "name": "1 star", "count": 5000000 },
-      { "name": "2 star", "count": 2500000 },
-      { "name": "3 star", "count": 7000000 },
-      { "name": "4 star", "count": 15000000 },
-      { "name": "5 star", "count": 20500000 }
+      {
+        "name": "1 star",
+        "count": 800000
+      },
+      {
+        "name": "2 star",
+        "count": 500000
+      },
+      {
+        "name": "3 star",
+        "count": 900000
+      },
+      {
+        "name": "4 star",
+        "count": 2500000
+      },
+      {
+        "name": "5 star",
+        "count": 6300000
+      }
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/tY_3UWTGkN5qZFr1uT3x7p4oPt1k6PuWz7A_8h6HXbD6vELOP4FZp-FUzC_0d9yVQ=s256-rw",
-    "title": "Chrome: Fast & Secure Browser",
-    "companyName": "Google LLC",
-    "id": 19,
-    "description": "Fast, secure web browser with Google Search and built-in protection features.",
-    "size": 200,
-    "reviews": "140M",
+    "image": "https://play-lh.googleusercontent.com/39xbI_gFcmGEIl6JEAGhJQKv8GBjR_RFyJ6qhrFfA9CUOKZU2clSs7uo81e30zPGtg=s256-rw",
+    "title": "1.1.1.1 + WARP: Safer Internet",
+    "companyName": "Cloudflare, Inc.",
+    "id": 15,
+    "description": "DNS resolver and VPN for a faster and more private internet connection.",
+    "long_description": "1.1.1.1 with WARP is the **free app that makes your internet safer and faster**. Developed by Cloudflare, 1.1.1.1 replaces your default DNS resolver with a privacy-first option, ensuring your Internet Service Provider (ISP) can't spy on your browsing activity. This simple change often results in noticeably faster loading times.\n\nActivate **WARP** to get a free, built-in VPN that encrypts all the traffic leaving your phone. WARP optimizes your internet connection for lower latency, ensuring a smoother experience for streaming and gaming. It doesn't track or sell your personal information.\n\nUpgrade to **WARP+** for an even faster experience by utilizing Cloudflare’s Argo network. The app is incredibly simple to use—just one tap to connect and secure your entire mobile connection. Protect your privacy and boost your speed—**install 1.1.1.1 + WARP today!**",
+    "size": 30.0,
+    "reviews": "800K",
     "ratingAvg": 4.5,
-    "downloads": "10B+",
+    "downloads": "50.0M",
     "ratings": [
-      { "name": "1 star", "count": 13000000 },
-      { "name": "2 star", "count": 7000000 },
-      { "name": "3 star", "count": 10000000 },
-      { "name": "4 star", "count": 28000000 },
-      { "name": "5 star", "count": 82000000 }
+      {
+        "name": "1 star",
+        "count": 40000
+      },
+      {
+        "name": "2 star",
+        "count": 20000
+      },
+      {
+        "name": "3 star",
+        "count": 50000
+      },
+      {
+        "name": "4 star",
+        "count": 180000
+      },
+      {
+        "name": "5 star",
+        "count": 510000
+      }
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/nzEkhRMYG9mCBMB4GvEhUL6hJ5YF7vO5E_Br2lSv0aBgkLxN-0ICpoPzPlV6bJ4zRw=s256-rw",
-    "title": "Google Maps",
-    "companyName": "Google LLC",
-    "id": 20,
-    "description": "Navigation app offering real-time GPS, traffic, and route information worldwide.",
-    "size": 130,
-    "reviews": "180M",
+    "image": "https://play-lh.googleusercontent.com/lmG9HlI0awHie0cyBieWXeNjpyXvHPwDBb8MNOVIyp0P8VEh95AiBHtUZSDVR3HLe3A=w240-h480-rw",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 16,
+    "description": "AI chatbot and productivity tool for conversation and information.",
+    "long_description": "ChatGPT is the **official mobile app** for the breakthrough AI chatbot from OpenAI. Harness the power of advanced conversational AI in your pocket to boost your productivity, creativity, and knowledge. Ask ChatGPT anything and receive instant, articulate, and insightful responses.\n\nUse it as a **personal assistant** to draft emails, summarize complex documents, generate creative ideas, or debug code. Get quick answers to general knowledge questions, learn a new language, or even engage in philosophical discussion. The app features **voice input** for hands-free conversations.\n\nYour chat history is synchronized across devices, so you can pick up where you left off. ChatGPT is constantly learning and improving, providing you with the most current and intelligent AI experience. **Download the official app** to access the future of information and productivity today!",
+    "size": 20.0,
+    "reviews": "1.5M",
     "ratingAvg": 4.6,
-    "downloads": "10B+",
+    "downloads": "50.0M",
     "ratings": [
-      { "name": "1 star", "count": 11000000 },
-      { "name": "2 star", "count": 7000000 },
-      { "name": "3 star", "count": 12000000 },
-      { "name": "4 star", "count": 45000000 },
-      { "name": "5 star", "count": 105000000 }
+      {
+        "name": "1 star",
+        "count": 50000
+      },
+      {
+        "name": "2 star",
+        "count": 30000
+      },
+      {
+        "name": "3 star",
+        "count": 70000
+      },
+      {
+        "name": "4 star",
+        "count": 350000
+      },
+      {
+        "name": "5 star",
+        "count": 1000000
+      }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/Vfk09mUpxoh_Xuwqo5Rh6E3CCe6IAXJH-R3uNWFfae95RQ09dCBBGRMl6i0HDiLrAptF",
+    "title": "WeMuslim: Athan, Qibla&Quran",
+    "companyName": "Metaverse Technology FZ-LLC",
+    "id": 17,
+    "description": "Islamic app providing prayer times, Qibla direction, and Quran.",
+    "long_description": "WeMuslim is the comprehensive and beautifully designed Islamic app for Muslims worldwide, helping you stay connected to your faith. Get **accurate, location-based prayer times (Salat)** with multiple Athan (Azan) options for perfect daily observance.\n\nThe app features an accurate **Qibla Finder** that guides you to the direction of the Kaaba in Mecca, no matter where you are. Read the **Holy Quran** in Arabic script with multiple audio recitations, translations (including Bangla), and transliterations. Bookmark your favorite Ayats and track your progress.\n\nDiscover other essential tools like a Hijri calendar, Zakat Calculator, and a directory of nearby mosques. The app is thoughtfully designed with a clean interface and features daily Duas and Hadith collections. Stay focused on your faith—**download WeMuslim** for your daily spiritual needs.",
+    "size": 60.0,
+    "reviews": "350K",
+    "ratingAvg": 4.8,
+    "downloads": "10.0M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 5000
+      },
+      {
+        "name": "2 star",
+        "count": 3000
+      },
+      {
+        "name": "3 star",
+        "count": 12000
+      },
+      {
+        "name": "4 star",
+        "count": 60000
+      },
+      {
+        "name": "5 star",
+        "count": 270000
+      }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/XyRQ3Jjq4pSaAv0XtVnLcUPfkPDrRULoAhRUeOxR53xgxrGVR1Lde2UcnJgZvRFodyN4",
+    "title": "PLAYit-All in One Video Player",
+    "companyName": "PLAYIT TECHNOLOGY PTE. LTD.",
+    "id": 18,
+    "description": "Video player and downloader application for local and online content.",
+    "long_description": "PLAYit is the **professional all-in-one HD video player and downloader** that meets all your media consumption needs. It supports ALL video formats (MKV, MP4, M4V, MOV, 3GP, FLV, WMV, etc.) and plays them in stunning, high-definition quality with smooth playback.\n\nThis powerful player automatically identifies all video files on your device and SD card, organizing them neatly. The integrated **online video downloader** allows you to save videos from various platforms directly to your phone for offline viewing.\n\nEnjoy smart controls like multi-screen play, gesture controls for volume and brightness, and an intelligent background play feature. PLAYit also features a **music player** to handle your audio files. It’s a complete media center designed for superior performance and user convenience. **Download PLAYit** and enjoy your entire media library without limits!",
+    "size": 35.0,
+    "reviews": "2.2M",
+    "ratingAvg": 4.2,
+    "downloads": "100.0M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 120000
+      },
+      {
+        "name": "2 star",
+        "count": 80000
+      },
+      {
+        "name": "3 star",
+        "count": 150000
+      },
+      {
+        "name": "4 star",
+        "count": 550000
+      },
+      {
+        "name": "5 star",
+        "count": 1300000
+      }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/p7_G7W7KQO_UO09jAekkwaw4yqEmOQvY6QExD63pPMiK_DVeEPDLacZdXsnvgvXeSuCe=w240-h480-rw",
+    "title": "Yalla Ludo - Ludo&Jackaroo",
+    "companyName": "Aviva Sun",
+    "id": 19,
+    "description": "Popular online Ludo and Domino game with voice chat rooms.",
+    "long_description": "Yalla Ludo is the **most popular voice chat Ludo and Domino game** in South Asia and the Middle East! Experience the classic Ludo game with a modern twist—play with real players online in various modes, including 2-player, 4-player, and team battles. Roll the dice and race your tokens to the center to achieve victory.\n\nThe app's standout feature is its **real-time voice chat rooms**. Create private rooms to chat with friends while you play, or join public rooms to meet new people from around the world. The interactive chat allows you to send fun emojis and messages.\n\nIn addition to Ludo, enjoy the classic game of **Domino (known as Jackaroo in some regions)**. With stunning graphics, smooth gameplay, and an engaging social element, Yalla Ludo offers endless hours of entertainment. **Download now** and start socializing while you play your favorite board games!",
+    "size": 85.0,
+    "reviews": "3.0M",
+    "ratingAvg": 4.3,
+    "downloads": "100.0M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 180000
+      },
+      {
+        "name": "2 star",
+        "count": 120000
+      },
+      {
+        "name": "3 star",
+        "count": 250000
+      },
+      {
+        "name": "4 star",
+        "count": 750000
+      },
+      {
+        "name": "5 star",
+        "count": 1700000
+      }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/qtgLcbI3f7CHcg8vUjYQQv3jzJ05-prQ5wr6VN0F-ehAFqLEjNNhFD_QbjujOAy-r4w=s256-rw",
+    "title": "Truecaller: Spam Call Blocker",
+    "companyName": "Truecaller",
+    "id": 20,
+    "description": "Caller ID, spam blocking, and communication utility app.",
+    "long_description": "Truecaller is the **world’s best Caller ID and spam blocking app**, trusted by over 500 million users globally. It instantly identifies and blocks millions of spam, robocalls, telemarketers, and fraudulent calls, giving you back control over your phone.\n\nOur **powerful Caller ID** tells you exactly who is calling before you pick up, even if the number is not in your contacts. You can automatically block unwanted calls and SMS using community-based spam lists and advanced blocking algorithms. It's the ultimate defense against phone scams.\n\nTruecaller is also a comprehensive communication utility, featuring a built-in **smart dialer** to call contacts easily and an **SMS inbox** that intelligently filters spam and unknown messages. Upgrade to Premium for advanced features like no ads and seeing who viewed your profile. Stay safe, stay connected—**download Truecaller today**!",
+    "size": 110.0,
+    "reviews": "25.0M",
+    "ratingAvg": 4.3,
+    "downloads": "500.0M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1500000
+      },
+      {
+        "name": "2 star",
+        "count": 800000
+      },
+      {
+        "name": "3 star",
+        "count": 1700000
+      },
+      {
+        "name": "4 star",
+        "count": 6000000
+      },
+      {
+        "name": "5 star",
+        "count": 15000000
+      }
     ]
   }
-
 ]
