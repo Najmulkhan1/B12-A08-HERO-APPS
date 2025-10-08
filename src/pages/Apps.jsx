@@ -10,6 +10,10 @@ const Apps = () => {
   const term = search.trim().toLocaleLowerCase()
   const searchApps = term ? apps.filter(app => app.title.toLocaleLowerCase().includes(term)) : apps
 
+  if(searchApps.length === 0){
+    return <ErrorApp />
+  }
+
   console.log(searchApps);
   
 
