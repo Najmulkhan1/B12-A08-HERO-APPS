@@ -41,7 +41,7 @@ const Navbar = () => {
             className="flex items-center text-xl font-bold text-[#632EE3] "
           >
             <img className="h-10" src={logo} alt="" />
-            <p className="ml-1">HERO.IO</p>
+            <p className="ml-1 text-gradiendt">HERO.IO</p>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">

@@ -1,0 +1,363 @@
+[
+  {
+    "image": "https://play-lh.googleusercontent.com/7ynvVIRdhJNAngCg_GI7i8TtH8BqkJYmffeUHsG-mJOdzt1XLvGmbsKuc5Q1SInBjDKN=s256-rw",
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "id": 1,
+    "description": "Stream millions of songs and podcasts from around the world. Listen to the latest music and podcasts, discover albums, playlists, and original podcasts for free on mobile and tablet. Download music and podcasts to listen offline, and enjoy personalized music and ad-free listening with Spotify Premium.",
+    "size": 234.6,
+    "reviews": "71.5M",
+    "ratingAvg": 4.55,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 650000 },
+      { "name": "5 star", "count": 2600000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN=s256-rw",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "id": 2,
+    "description": "Cross-platform encrypted messaging service for text, voice, and video calls.",
+    "size": 60,
+    "reviews": "180M",
+    "ratingAvg": 4.4,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 10000000 },
+      { "name": "2 star", "count": 8000000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 125000000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/9ps_d6nGKQzfbsJfMaFR0RkdwzEdbZV53ReYCS09Eo5MV-GtVylFD-7IHcVktlnz9Mo=s256-rw",
+    "title": "Nagad",
+    "companyName": "Bangladesh Post Office",
+    "id": 3,
+    "description": "Digital financial service (DFS) for fast, secure, and affordable money transactions.",
+    "size": 45,
+    "reviews": "1M",
+    "ratingAvg": 4.3,
+    "downloads": "10M+",
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 600000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/LdgiKR1XG_r7B5EmccvT_UO5CbDHipiI0hdP7doMKNPi0IH80jsCceJdG7A8gE-55A=s256-rw",
+    "title": "Daraz Bangladesh",
+    "companyName": "Daraz Group",
+    "id": 4,
+    "description": "Leading e-commerce and online shopping marketplace in Bangladesh.",
+    "size": 80,
+    "reviews": "2.5M",
+    "ratingAvg": 4.2,
+    "downloads": "50M+",
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 1400000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/aP7LHNpjMJJxoR8jRPPdVPlISDNNkFBKKmdODDp0uRNlL3YTugEdNEcHJgKBeRV8eeuU=w240-h480-rw",
+    "title": "Brave Private Web Browser, VPN",
+    "companyName": "Brave Software, Inc.",
+    "id": 5,
+    "description": "Fast, private browser with built-in ad blocking, tracker protection and an optional VPN for secure browsing.",
+    "size": 95,
+    "reviews": "420K",
+    "ratingAvg": 4.5,
+    "downloads": "50M+",
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 7500000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/VOzNtZCfgeeqlJzD9HtucOWvwAk1f20bS66BejFlEhLyEzs24YiU4q7K_7EwhVkPt3s=s256-rw",
+    "title": "imo-International Calls & Chat",
+    "companyName": "imo.im",
+    "id": 6,
+    "description": "Global video and chat application popular for international calls.",
+    "size": 40,
+    "reviews": "9M",
+    "ratingAvg": 4.3,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 2100000 },
+      { "name": "5 star", "count": 5500000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/ZU9cSsyIJZo6Oy7HTHiEPwZg0m2Crep-d5ZrfajqtsH-qgUXSqKpNA2FpPDTn-7qA5Q=s256-rw",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 7,
+    "description": "Cloud-based instant messaging service focused on speed and security.",
+    "size": 55,
+    "reviews": "8M",
+    "ratingAvg": 4.5,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 5500000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/EyFEGTIvyUaRlE-hlAToX7fDZQes2RX0AiuLxt8cf6Oiax70YzNK1XYyDIRpPADEq_K7=s256-rw",
+    "title": "CutCut - Video Editor",
+    "companyName": "Bytedance Pte. Ltd.",
+    "id": 8,
+    "description": "All-in-one free video editing application.",
+    "size": 100,
+    "reviews": "5M",
+    "ratingAvg": 4.4,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 1050000 },
+      { "name": "5 star", "count": 3300000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/jHnf_3-yMox_Tub_oLKQ7OuOi8Iahf1f4rdu-etZ2hmzUOekY84znct-c8hksxhD15PYNk4dMH2ZdVY3uxm7Gw",
+    "title": "Free Fire - Light Fest",
+    "companyName": "Garena International I",
+    "id": 9,
+    "description": "Popular survival shooter game played in Bangladesh.",
+    "size": 750,
+    "reviews": "150M",
+    "ratingAvg": 4.1,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 10000000 },
+      { "name": "2 star", "count": 7000000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 35000000 },
+      { "name": "5 star", "count": 86000000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/iDgVznPhzb5rXDnNVDC0wwlTc_t5pDcmcPziJkLjk8wySwPqNeI5N8wVRPHQNRNydQ=s256-rw",
+    "title": "Pathao",
+    "companyName": "Pathao",
+    "id": 10,
+    "description": "Ride-sharing, food delivery, and e-commerce logistics platform.",
+    "size": 65,
+    "reviews": "300K",
+    "ratingAvg": 4.0,
+    "downloads": "10M+",
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 85000 },
+      { "name": "5 star", "count": 140000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/P7Bo0klUw2aF4D1hnMgc99M4XhS6hS8xOgrPaX-vbG2W3ulLLWbXZquN4GppWgkPYXc=s256-rw",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 11,
+    "description": "Official app for streaming videos, music, and shorts from creators around the world.",
+    "size": 150,
+    "reviews": "150M",
+    "ratingAvg": 4.3,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 12000000 },
+      { "name": "2 star", "count": 7000000 },
+      { "name": "3 star", "count": 15000000 },
+      { "name": "4 star", "count": 50000000 },
+      { "name": "5 star", "count": 70000000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/DNChx4hwSXo8oDBVCz7uTuh5JrK4_g3f-M5guyk_cO0nv-wo1XXsMIdYzAXk8adkXw=s256-rw",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 12,
+    "description": "Connect with friends, share updates, photos, and videos in the world’s largest social network.",
+    "size": 210,
+    "reviews": "140M",
+    "ratingAvg": 4.1,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 15000000 },
+      { "name": "2 star", "count": 8000000 },
+      { "name": "3 star", "count": 18000000 },
+      { "name": "4 star", "count": 45000000 },
+      { "name": "5 star", "count": 54000000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/YOJ9iXfByD-A2mI3RQo_ItZ1FjBDmWIR1T21-KrGsmgPp8SduD8f2TxF_BvndzEkpQ=s256-rw",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 13,
+    "description": "Photo and video sharing social network that connects people globally.",
+    "size": 160,
+    "reviews": "150M",
+    "ratingAvg": 4.5,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 12000000 },
+      { "name": "2 star", "count": 7000000 },
+      { "name": "3 star", "count": 15000000 },
+      { "name": "4 star", "count": 42000000 },
+      { "name": "5 star", "count": 74000000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/jNyl7UpQO1TuRkzFKU16ZbzN2qMSiAiQfHhvCJ_BhZ0dGKnI1nwlR5LRK4_CEHVtZg=s256-rw",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 14,
+    "description": "Short-form video creation and sharing platform loved by creators worldwide.",
+    "size": 130,
+    "reviews": "140M",
+    "ratingAvg": 4.4,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 10000000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 13000000 },
+      { "name": "4 star", "count": 38000000 },
+      { "name": "5 star", "count": 74000000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/fF0eD9zNKN8fSx4G-Yg7bqHH3Q7R2mE4fQvV5eWQtGJv9vC_FO7mPbaKe0PzWqltBw=s256-rw",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 15,
+    "description": "Instant photo and video messaging app with disappearing messages and filters.",
+    "size": 90,
+    "reviews": "40M",
+    "ratingAvg": 4.2,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 15000000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/pfUyb9gcJKObTvvP3gl03dKLDI2kH1Km0Pw1dufCk_6DpToH7WZTYbM8HiOZ4YWReQ=s256-rw",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 16,
+    "description": "Professional networking platform to connect, share insights, and find opportunities.",
+    "size": 110,
+    "reviews": "15M",
+    "ratingAvg": 4.4,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 4500000 },
+      { "name": "5 star", "count": 7800000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/N6_3IYv2E3ZrC4tyxO4nOeIuGrzQe13dUOLBvh5Er7rRUY3XTu4Wj0ld-c6Hb3dDscI=s256-rw",
+    "title": "Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 17,
+    "description": "Instant messaging app with voice, video calls, and stories from Facebook.",
+    "size": 120,
+    "reviews": "80M",
+    "ratingAvg": 4.3,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 7000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 24000000 },
+      { "name": "5 star", "count": 36000000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/8U8dHs3ngT7LbtEB9YzUAWD2VEZyQ7WwaI6dNbpOv5I6Jiv2Sl3XqaiQ_mBRrUEcQ=s256-rw",
+    "title": "Twitter (X)",
+    "companyName": "X Corp.",
+    "id": 18,
+    "description": "Microblogging platform for real-time updates, trends, and global discussions.",
+    "size": 95,
+    "reviews": "50M",
+    "ratingAvg": 4.2,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 20500000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/tY_3UWTGkN5qZFr1uT3x7p4oPt1k6PuWz7A_8h6HXbD6vELOP4FZp-FUzC_0d9yVQ=s256-rw",
+    "title": "Chrome: Fast & Secure Browser",
+    "companyName": "Google LLC",
+    "id": 19,
+    "description": "Fast, secure web browser with Google Search and built-in protection features.",
+    "size": 200,
+    "reviews": "140M",
+    "ratingAvg": 4.5,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 13000000 },
+      { "name": "2 star", "count": 7000000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 28000000 },
+      { "name": "5 star", "count": 82000000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/nzEkhRMYG9mCBMB4GvEhUL6hJ5YF7vO5E_Br2lSv0aBgkLxN-0ICpoPzPlV6bJ4zRw=s256-rw",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 20,
+    "description": "Navigation app offering real-time GPS, traffic, and route information worldwide.",
+    "size": 130,
+    "reviews": "180M",
+    "ratingAvg": 4.6,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 11000000 },
+      { "name": "2 star", "count": 7000000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 45000000 },
+      { "name": "5 star", "count": 105000000 }
+    ]
+  }
+
+]
