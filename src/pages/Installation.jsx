@@ -49,10 +49,18 @@ const parseDownloads = (str) => {
     return num;
   };
 
-  const sortedApps = [...install].sort((a, b) => parseDownloads(b.downloads) - parseDownloads(a.downloads));
+  // const sortedApps = [...install].sort((a, b) => parseDownloads(b.downloads) - parseDownloads(a.downloads));
 
-  console.log(sortedApps);
-  
+  // console.log(sortedApps);
+  const sortedItem = (() => {
+    if (SortApp === 'app-desc') {
+      return [...install].sort((a, b) => parseDownloads(b.downloads) - parseDownloads(a.downloads))
+    } else if (SortApp === 'app-asc') {
+      return [...install].sort((a, b) => parseDownloads(a.downloads) - parseDownloads(b.downloads))
+    } else {
+      return install
+    }
+  })()
 
 
   return (
@@ -63,10 +71,10 @@ const parseDownloads = (str) => {
           Explore All Apps on the Market developed by us.
         </p>
 
-        <div>
+        <div className="flex justify-between">
           <h1>{install.length} App Install</h1>
 
-          <label>
+          <label className="border border-gray-400 py-1 px-2 rounded-md">
             <select value={SortApp} onChange={(e) => setSortApp(e.target.value)}>
                 <option value="none">Sort by Download</option>
                 <option value="app-desc">High &gt;Low</option>
@@ -76,7 +84,7 @@ const parseDownloads = (str) => {
         </div>
 
         <div className="space-y-3">
-          {install.map((p) => (
+          {sortedItem.map((p) => (
             <div className="card card-side bg-base-100 shadow-sm">
               <figure className="p-1">
                 <img

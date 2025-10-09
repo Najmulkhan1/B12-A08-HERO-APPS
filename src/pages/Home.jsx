@@ -23,12 +23,12 @@ const Home = () => {
         </Link>
       </div>
 
-      <Loader/>
+      {/* <Loader/>
 
      <button class="shine-btn relative overflow-hidden bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold">
   <span class="relative z-10">Shining Button</span>
   <span class="shine absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent"></span>
-</button>
+</button> */}
 
     </div>
   );

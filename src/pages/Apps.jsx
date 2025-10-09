@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import useApps from "../hooks/useApps";
 import AppCard from "../components/AppCard";
 import ErrorApp from "../error/ErrorApp";
+import Loader from "../components/Loader";
 
 const Apps = () => {
-  const { apps } = useApps();
+  const { apps, loading } = useApps();
   const [search, setSearch] = useState('')
 
   const term = search.trim().toLocaleLowerCase()
@@ -48,11 +49,18 @@ const Apps = () => {
         </label>
       </div>
 
-      <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-5'>
+      {loading ? (
+        <Loader count={20} />
+      ):(
+
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-5'>
         {
             searchApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
         }
       </div>
+      )}
+
+      
     </div>
   );
 };
