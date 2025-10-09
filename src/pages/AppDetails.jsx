@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import useApps from "../hooks/useApps";
 import downloadIcon from "../assets/icon-downloads.png";
 import starIcon from "../assets/icon-ratings.png";
 import reviewIcon from "../assets/icon-review.png";
 import RatingsChart from "../components/RatingsChart";
+import Swal from "sweetalert2";
+import { Bounce, ToastContainer, toast } from "react-toastify";
+
 import {
   Bar,
   BarChart,
@@ -15,6 +18,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import ErrorApp from "../error/ErrorApp";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -32,6 +36,54 @@ const AppDetails = () => {
     ratingAvg,
   } = app || {};
   console.log(app);
+
+  const [isInstall, setIsInstall] = useState(false);
+
+  useEffect(() => {
+    const installedApps = JSON.parse(localStorage.getItem("app")) || [];
+    const installed = installedApps.some((p) => p.id === app?.id);
+    if (installed) setIsInstall(true);
+  }, [app]);
+
+  if (!app) {
+    return <ErrorApp />;
+  }
+
+  const handleAddToInstall = () => {
+    setIsInstall(true);
+    const existingList = JSON.parse(localStorage.getItem("app"));
+
+    console.log(existingList);
+
+    let updateList = [];
+
+    if (existingList) {
+      const isDuplicate = existingList.some((p) => p.id === app.id);
+      if (isDuplicate)
+        return Swal.fire({
+          title: "This app is already install !",
+          icon: "error",
+          draggable: true,
+        });
+      updateList = [...existingList, app];
+    } else {
+      updateList.push(app);
+    }
+
+    localStorage.setItem("app", JSON.stringify(updateList));
+
+    toast.success(`Yahoo!! ${app.title} Installed Successfully`, {
+      position: "top-center",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Bounce,
+    });
+  };
 
   return (
     <div className="w-11/12 mx-auto">
@@ -69,8 +121,12 @@ const AppDetails = () => {
           </div>
 
           <div>
-            <button className=" bg-[#00D390] text-white py-2 px-3 font-semibold rounded-sm mt-3 cursor-pointer hover:bg-[#30aa83]">
-              Install Now ({size} MB)
+            <button
+              disabled={isInstall}
+              onClick={() => handleAddToInstall()}
+              className=" bg-[#00D390] text-white py-2 px-3 font-semibold rounded-sm mt-3 cursor-pointer hover:bg-[#30aa83]"
+            >
+              {isInstall ? "Installed" : `Install Now (${size} MB)`}
             </button>
           </div>
         </div>
@@ -115,6 +171,20 @@ const AppDetails = () => {
         <h3 className="text-xl font-semibold mt-8">Description</h3>
         <p className="text-gray-500 text-sm mt-4 mb-14">{long_description}</p>
       </div>
+
+      <ToastContainer
+        position="top-center"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+        transition={Bounce}
+      />
     </div>
   );
 };

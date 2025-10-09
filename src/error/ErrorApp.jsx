@@ -19,7 +19,7 @@ const ErrorApp = () => {
 
         <div className="flex-1 flex flex-col justify-center items-center p-10">
                 <img src={apperror} alt="" />
-                <h2 className="text-4xl mt-10">Oops, Page not found!</h2>
+                <h2 className="text-4xl mt-10">OPPS!! APP NOT FOUND</h2>
                 <p className="text-sm text-gray-400 mt-2">
                   The page you are looking for is not available.
                 </p>
