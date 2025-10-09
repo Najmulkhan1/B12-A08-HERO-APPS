@@ -6,17 +6,15 @@ import Loader from "../components/Loader";
 
 const Apps = () => {
   const { apps, loading } = useApps();
-  const [search, setSearch] = useState('')
+  const [search, setSearch] = useState("");
 
-  const term = search.trim().toLocaleLowerCase()
-  const searchApps = term ? apps.filter(app => app.title.toLocaleLowerCase().includes(term)) : apps
+  const term = search.trim().toLocaleLowerCase();
+  const searchApps = term
+    ? apps.filter((app) => app.title.toLocaleLowerCase().includes(term))
+    : apps;
 
-  if(searchApps.length === 0){
-    return <ErrorApp />
-  }
 
   console.log(searchApps);
-  
 
   return (
     <div className="w-11/12 mx-auto mb-10">
@@ -45,22 +43,34 @@ const Apps = () => {
               <path d="m21 21-4.3-4.3"></path>
             </g>
           </svg>
-          <input value={search} onChange={(e) => setSearch(e.target.value)} type="search" required placeholder="Search Apps" />
+          <input
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            type="search"
+            required
+            placeholder="Search Apps"
+          />
         </label>
       </div>
 
-      {loading ? (
+      {/* {loading ? (
         <Loader count={20} />
       ):(
 
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-5'>
-        {
-            searchApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
-        }
-      </div>
-      )}
+       
+      )} */}
 
-      
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-5">
+        {loading ? (
+          <Loader />
+        ) : searchApps.length === 0 ? (
+          <h1 className="text-center col-span-full text-lg font-semibold text-gray-500">
+            🚫 No App Found
+          </h1>
+        ) : (
+          searchApps.map((app) => <AppCard key={app.id} app={app}></AppCard>)
+        )}
+      </div>
     </div>
   );
 };

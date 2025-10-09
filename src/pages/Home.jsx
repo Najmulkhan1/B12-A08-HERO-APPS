@@ -4,8 +4,16 @@ import Banner from "../components/Banner";
 import TrendingApp from "../components/TrendingApp";
 import { Link } from "react-router";
 import Loader from "../components/Loader";
+import useApps from "../hooks/useApps";
 
 const Home = () => {
+
+  const {loading} = useApps()
+
+  if (loading) {
+  return <Loader />;
+}
+
   return (
     <div>
       <div className="w-11/12 mx-auto">

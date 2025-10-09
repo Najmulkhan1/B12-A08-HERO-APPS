@@ -19,10 +19,11 @@ import {
   YAxis,
 } from "recharts";
 import ErrorApp from "../error/ErrorApp";
+import Loader from "../components/Loader";
 
 const AppDetails = () => {
   const { id } = useParams();
-  const { apps } = useApps();
+  const { apps,loading } = useApps();
   const app = apps.find((a) => String(a.id) === id);
   const {
     title,
@@ -44,6 +45,10 @@ const AppDetails = () => {
     const installed = installedApps.some((p) => p.id === app?.id);
     if (installed) setIsInstall(true);
   }, [app]);
+
+  if (loading) {
+  return <Loader />;
+}
 
   if (!app) {
     return <ErrorApp />;
@@ -86,7 +91,9 @@ const AppDetails = () => {
   };
 
   return (
-    <div className="w-11/12 mx-auto">
+    <>
+   
+ <div className="w-11/12 mx-auto">
       <div className="md:flex gap-6 mt-15">
         <div className="flex justify-center items-center">
           <figure className="flex justify-center items-center h-[227px] w-[227px] bg-white">
@@ -186,6 +193,9 @@ const AppDetails = () => {
         transition={Bounce}
       />
     </div>
+   
+    </>
+    
   );
 };
 
