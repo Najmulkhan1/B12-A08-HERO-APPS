@@ -30,7 +30,7 @@ const Apps = () => {
   return <Loader />;
 }
 
-  console.log(searchApps);
+  
 
   return (
     <div className="w-11/12 mx-auto mb-10">

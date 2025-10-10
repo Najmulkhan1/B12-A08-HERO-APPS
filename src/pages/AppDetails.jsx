@@ -123,7 +123,7 @@ const AppDetails = () => {
                 className={`py-2 px-4 font-semibold rounded-sm mt-4 flex items-center justify-center gap-2 transition-all ${
                   isInstall
                     ? "bg-gradent text-white  cursor-not-allowed"
-                    : "bg-gradent text-white hover:bg-[#30aa83]"
+                    : "bg-gradent text-white cursor-pointer hover:bg-[#30aa83]"
                 } disabled:opacity-70`}
               >
                 {isLoadingBtn ? (

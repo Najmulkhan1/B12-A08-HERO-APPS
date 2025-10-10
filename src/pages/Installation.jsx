@@ -4,6 +4,7 @@ import { MdOutlineFileDownload } from "react-icons/md";
 import Swal from "sweetalert2";
 import useApps from "../hooks/useApps";
 import Loader from "../components/Loader";
+import { Bounce, toast, ToastContainer } from "react-toastify";
 
 const Installation = () => {
   const [install, setInstall] = useState([]);
@@ -20,35 +21,29 @@ const Installation = () => {
   return <Loader />;
 }
 
-  console.log(install);
-//   const {id} = install
-
-  // const sortedItem = (()=>{
-  //     if(sortApp === '')
-  // })()
-
+  
 const handleRemove = (appId) => {
   const appList = JSON.parse(localStorage.getItem("app")) || [];
 
-  console.log("Before remove:", appList);
-  console.log("Removing ID:", appId);
 
   const updatedList = appList.filter(a => String(a.id) !== String(appId));
-
-  console.log("After remove:", updatedList);
+  const showToast = appList.find(a => String(a.id) === String(appId));
+  
 
   localStorage.setItem("app", JSON.stringify(updatedList));
 
   setInstall(prev => prev.filter(a => String(a.id) !== String(appId)));
 
-  Swal.fire({
-    title: "Uninstall App successfully!",
-    icon: "success",
-    timer: 1500,
-    showConfirmButton: false,
-  });
+  if (showToast) {
+    toast.success(`${showToast.title} Uninstalled from your device`, {
+      position: "top-center",
+      autoClose: 2000,
+      theme: "light",
+      transition: Bounce,
+    });
+  }
 };
-
+ 
 const parseDownloads = (str) => {
     const num = parseFloat(str);
     if (str.includes("B")) return num * 1_000_000_000;
@@ -57,9 +52,7 @@ const parseDownloads = (str) => {
     return num;
   };
 
-  // const sortedApps = [...install].sort((a, b) => parseDownloads(b.downloads) - parseDownloads(a.downloads));
-
-  // console.log(sortedApps);
+  
   const sortedItem = (() => {
     if (SortApp === 'app-desc') {
       return [...install].sort((a, b) => parseDownloads(b.downloads) - parseDownloads(a.downloads))
@@ -96,10 +89,10 @@ const parseDownloads = (str) => {
           <h1 className="text-center col-span-full text-lg font-semibold text-gray-500">
              ⛔ No App Install
           </h1>) :sortedItem.map((p) => (
-            <div className="card card-side bg-base-100 shadow-sm">
-              <figure className="h-29 w-15 md:w-29 ml-3 border border-gray-300">
+            <div key={p.id} className="card card-side bg-base-100 shadow-sm">
+              <figure className="h-29 w-15 md:w-29 ml-3 border-gray-300">
                 <img
-                  className=" h-29 object-contain"
+                  className="w-14 md:w-29 h-29 object-contain"
                   src={p.image}
                   alt={p.name}
                 />
@@ -132,6 +125,7 @@ const parseDownloads = (str) => {
           ))}
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };

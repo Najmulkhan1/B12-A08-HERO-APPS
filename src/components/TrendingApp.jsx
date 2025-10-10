@@ -8,7 +8,7 @@ const TrendingApp = () => {
 
     const {apps} = useApps()
     const sliceApp = apps.slice(0,8)
-    console.log(sliceApp);
+   
 
 
     
