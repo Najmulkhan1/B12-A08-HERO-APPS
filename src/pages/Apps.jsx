@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import useApps from "../hooks/useApps";
 import AppCard from "../components/AppCard";
 import ErrorApp from "../error/ErrorApp";
@@ -7,12 +7,28 @@ import Loader from "../components/Loader";
 const Apps = () => {
   const { apps, loading } = useApps();
   const [search, setSearch] = useState("");
+  const [searchLoading, setSearchLoading] = useState(false)
 
   const term = search.trim().toLocaleLowerCase();
   const searchApps = term
     ? apps.filter((app) => app.title.toLocaleLowerCase().includes(term))
     : apps;
 
+  useEffect(()=>{
+    if(term) {
+      setSearchLoading(true)
+      const timer = setTimeout(()=>{
+        setSearchLoading(false)
+      },200)
+      return ()=> clearTimeout (timer)
+    }else{
+      setSearchLoading(false)
+    }
+  },[term])
+
+    if (loading) {
+  return <Loader />;
+}
 
   console.log(searchApps);
 
@@ -53,24 +69,23 @@ const Apps = () => {
         </label>
       </div>
 
-      {/* {loading ? (
-        <Loader count={20} />
-      ):(
 
-       
-      )} */}
-
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-5">
-        {loading ? (
+      {searchLoading ? (
+        <div className="flex justify-center mt-8 opacity-80">
           <Loader />
-        ) : searchApps.length === 0 ? (
-          <h1 className="text-center col-span-full text-lg font-semibold text-gray-500">
-            🚫 No App Found
-          </h1>
-        ) : (
-          searchApps.map((app) => <AppCard key={app.id} app={app}></AppCard>)
-        )}
-      </div>
+        </div>
+      ) : (
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-5">
+          {searchApps.length === 0 ? (
+            <h1 className="text-center col-span-full text-lg font-semibold text-gray-500">
+              🚫 No App Found
+              <ErrorApp />
+            </h1>
+          ) : (
+            searchApps.map((app) => <AppCard key={app.id} app={app} />)
+          )}
+        </div>
+      )}
     </div>
   );
 };

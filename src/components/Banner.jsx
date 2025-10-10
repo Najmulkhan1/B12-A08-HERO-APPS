@@ -15,7 +15,7 @@ const Banner = () => {
           <div className="grid gap-4 md:grid-cols-3">
             <div className="text-center">
                 <h4 className="text-[10px] text-white/70">Total Download</h4>
-                <h1 className="text-4xl font-bold">29.6M</h1>
+                <h1 className="text-4xl font-bold">20.6B+</h1>
                 <h4 className="text-[10px] text-white/70">46% more than last month</h4>
             </div>
             <div className="text-center">

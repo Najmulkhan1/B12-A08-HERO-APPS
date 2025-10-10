@@ -43,3 +43,18 @@ text-transform: capitalize;
   position: relative;
   overflow: hidden;
 }
+
+
+
+@keyframes pulseText {
+  0%, 100% {
+    font-size: 3rem;
+  }
+  50% {
+    font-size: 6rem; 
+  }
+}
+
+.animate-pulseText {
+  animation: pulseText 5s infinite;
+}

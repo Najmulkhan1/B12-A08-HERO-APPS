@@ -2,15 +2,23 @@ import React, { useEffect, useState } from "react";
 import { IoStar } from "react-icons/io5";
 import { MdOutlineFileDownload } from "react-icons/md";
 import Swal from "sweetalert2";
+import useApps from "../hooks/useApps";
+import Loader from "../components/Loader";
 
 const Installation = () => {
   const [install, setInstall] = useState([]);
   const [SortApp, setSortApp ] = useState("none")
 
+  const {loading} = useApps()
+
   useEffect(() => {
     const saveApps = JSON.parse(localStorage.getItem("app"));
     if (saveApps) setInstall(saveApps);
   }, []);
+
+  if (loading) {
+  return <Loader />;
+}
 
   console.log(install);
 //   const {id} = install
@@ -72,7 +80,7 @@ const parseDownloads = (str) => {
         </p>
 
         <div className="flex justify-between">
-          <h1>{install.length} App Install</h1>
+          <h1 className="text-md font-semibold">{install.length} App Install</h1>
 
           <label className="border border-gray-400 py-1 px-2 rounded-md">
             <select value={SortApp} onChange={(e) => setSortApp(e.target.value)}>
@@ -84,17 +92,20 @@ const parseDownloads = (str) => {
         </div>
 
         <div className="space-y-3">
-          {sortedItem.map((p) => (
+          {sortedItem.length === 0 ? (
+          <h1 className="text-center col-span-full text-lg font-semibold text-gray-500">
+             ⛔ No App Install
+          </h1>) :sortedItem.map((p) => (
             <div className="card card-side bg-base-100 shadow-sm">
-              <figure className="p-1">
+              <figure className="h-29 w-15 md:w-29 ml-3 border border-gray-300">
                 <img
-                  className="w-40 h-29 object-contain"
+                  className=" h-29 object-contain"
                   src={p.image}
                   alt={p.name}
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">{p.title}</h2>
+                <h2 className="card-title text-left">{p.title}</h2>
                 <div className="flex ">
                   <div className="flex items-center px-2 rounded-md  text-[#00D390]">
                     <MdOutlineFileDownload />

@@ -1,6 +1,8 @@
 import React from 'react'
 import useApps from '../hooks/useApps'
 import AppCard from './AppCard'
+import { IoIosTrendingUp } from "react-icons/io";
+
 
 const TrendingApp = () => {
 
@@ -16,7 +18,7 @@ const TrendingApp = () => {
     <div className='w-11/12 mx-auto mb-10'>
 
         <div className='text-center my-8 space-y-2'>
-            <h1 className='text-3xl font-semibold'>Trending Apps</h1>
+            <h1 className='text-3xl font-semibold flex items-center justify-center'>Trending Apps <IoIosTrendingUp /></h1>
             <p className='text-gray-500 text-sm'>Explore All Trending Apps on the Market developed by us</p>
         </div>
 

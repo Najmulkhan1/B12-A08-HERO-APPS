@@ -63,27 +63,35 @@ const Navbar = () => {
             <NavLink
               to="/apps"
               className={({ isActive }) =>
-                isActive ? "border-b-2 border-gray-300" : ""
+                 `flex items-center p-2 border-b-2 transition-colors duration-200 ${
+                  isActive
+                    ? "border-[#632EE3]/60 text-[#632EE3]"
+                    : "border-transparent text-gray-500 "
+                }`
               }
             >
-              <div className="flex items-center p-2 text-gray-500">
+             
                 <FaAppStore size={20} /> <p className="ml-2">Apps</p>
-              </div>
+              
             </NavLink>
             <NavLink
               to="/installation"
               className={({ isActive }) =>
-                isActive ? "border-b-2 border-gray-300" : ""
+                `flex items-center p-2 border-b-2 transition-colors duration-200 ${
+                  isActive
+                    ? "border-[#632EE3]/60 text-[#632EE3]"
+                    : "border-transparent text-gray-500 "
+                }`
               }
             >
-              <div className="flex items-center p-2 text-gray-500">
+              
                 <FaAppStore size={20} /> <p className="ml-2">Installation</p>
-              </div>
+              
             </NavLink>
           </ul>
         </div>
         <div className="navbar-end">
-          <NavLink to={'https://github.com/Najmulkhan1'}> <button className='animate-pulse flex items-center gap-2 bg-gradent text-white px-3 py-2 rounded-sm shadow-2xl font-semibold' > <FaGithub/>  Contribute</button> </NavLink>
+          <NavLink to={'https://github.com/Najmulkhan1'}> <button className='animate-pulse flex items-center cursor-pointer gap-2 bg-gradent text-white px-3 py-2 rounded-sm shadow-2xl font-semibold' > <FaGithub/>  Contribute</button> </NavLink>
         </div>
       </div>
     </div>
